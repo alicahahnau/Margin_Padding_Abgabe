@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Open-Sans';
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-right: 20px;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 75%;
+}
+
+.imgpadding {
+    width: 100%;
+    padding: 20px;
+    background-image: url(../img/padding.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imgmargin {
+    width: 100%;
+    padding: 20px;
+    background-image: url(../img/margin.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.twomiddle {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.onemiddle {
+    float: left;
+    width: 100%;
+}
+
+.threemiddle {
+    float: left;
+    width: 33%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
