@@ -1,13 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-@font-face {
-    font-family: 'Open-Sans';
-    src: url('../fonts/OpenSans-Regular.ttf');
-}
-
-
 body {
     font-family: Arial;
     padding: 10px;
